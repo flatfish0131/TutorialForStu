@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  bstutorial:
+    build: .
+    container_name: bstutorial
+    ports:
+      - "8009:80"
+    restart: always
